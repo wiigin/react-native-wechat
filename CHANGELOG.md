@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/shm-open/react-native-wechat/compare/v1.2.3...v1.3.0) (2022-02-16)
+
+
+### Features
+
+* update sdk to 6.8.0 ([2e41993](https://github.com/shm-open/react-native-wechat/commit/2e419937108b1ecd4ae94cdc7ab458afb363b446))
+
 ### [1.2.3](https://github.com/shm-open/react-native-wechat/compare/v1.2.2...v1.2.3) (2021-12-24)
 
 
