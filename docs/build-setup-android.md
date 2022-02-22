@@ -19,14 +19,14 @@ package your.package.wxapi;
 
 import android.app.Activity;
 import android.os.Bundle;
-import com.theweflex.react.WeChatModule;
+import com.theweflex.react.WechatModule;
 
 public class WXEntryActivity extends Activity {
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     // 冷启动、热启动自己应用需要自己处理跳转到指定页面
-    WeChatModule.handleIntent(getIntent());
+    WechatModule.handleIntent(getIntent());
     finish();
   }
 }
@@ -57,14 +57,14 @@ package your.package.wxapi;
 
 import android.app.Activity;
 import android.os.Bundle;
-import com.theweflex.react.WeChatModule;
+import com.theweflex.react.WechatModule;
 
 public class WXPayEntryActivity extends Activity {
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
      // 冷启动、热启动自己应用需要自己处理跳转到指定页面
-    WeChatModule.handleIntent(getIntent());
+    WechatModule.handleIntent(getIntent());
     finish();
   }
 }
